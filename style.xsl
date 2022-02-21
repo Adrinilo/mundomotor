@@ -87,8 +87,8 @@
                             <h3 class="d-flex justify-content-start pb-2 text-shadow">TUS MOTOS DE SEGUNDA MANO</h3>
                             <hr class="my-2" color="#E5FAE9" />
                             <div class="text-white-50 d-flex justify-content-between">
-                                <p class="lead">Fuente: <xsl:value-of select="motos/fuente"/></p>
-                                <p>Fecha: <xsl:value-of select="motos/@fecha"/></p>
+                                <p class="lead">Fuente: <xsl:value-of select="motos/fuente" /></p>
+                                <p>Fecha: <xsl:value-of select="motos/@fecha" /></p>
                             </div>
                         </div>
                         <div class="row justify-content-center" id="all">
