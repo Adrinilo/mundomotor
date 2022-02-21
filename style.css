@@ -1,0 +1,36 @@
+.container-perso {
+ width: 90%;
+ padding: 0;
+ margin: 0 auto;
+}
+.agrandar {
+    height:40vh;
+    object-fit: cover;
+}
+.agrandar:hover {
+    object-fit: contain;
+}
+.bg-cian-azul {
+    background-color:#536878;
+}
+.bg-gris {
+    background-color:#ced1d1;
+}
+.bg-blanco-claro {
+    background-color: #E5FAE9;
+}
+.text-blanco-claro {
+    color: #E5FAE9;
+}
+.text-shadow {
+    text-shadow: -1px 3px 1px #536878;
+}
+div p{
+    bottom: 0px;
+}
+#categorias button {
+    width: 100%;
+}
+#classics, #urbans, #tourings ,#trails, #scooters ,#otras{
+    display: none;
+}
